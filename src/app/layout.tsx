@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="de" className="min-h-screen">
       <head></head>
-      <body className="min-h-screen">{children}</body>
+      <body className="min-h-screen bg-foreground">{children}</body>
     </html>
   );
 }

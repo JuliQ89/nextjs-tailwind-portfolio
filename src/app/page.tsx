@@ -1,7 +1,15 @@
+import About from "@/components/About";
+import Header from "@/components/Header";
+
 export default function Home() {
   return (
-    <div className="flex items-center justify-center min-h-screen flex-col">
-      <h1 className="font-bold text-3xl font-preahvihear">Home</h1>
-    </div>
+    <>
+      <Header />
+      <div className="min-h-screen flex flex-col items-center text-white font-preahvihear px-10">
+        <div className="flex justify-center max-w-6xl w-full">
+          <About />
+        </div>
+      </div>
+    </>
   );
 }
