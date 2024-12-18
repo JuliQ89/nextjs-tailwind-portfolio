@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Header />
       <div className="min-h-screen flex flex-col items-center text-white font-preahvihear px-10">
-        <div className="flex justify-center max-w-6xl w-full">
+        <div className="flex justify-center max-w-5xl w-full">
           <About />
         </div>
       </div>

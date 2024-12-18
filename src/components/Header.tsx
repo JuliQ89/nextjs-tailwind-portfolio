@@ -4,12 +4,12 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="bg-[#1A0B2E] w-full flex items-center justify-center p-5">
-      <div className="flex items-center justify-between max-w-6xl w-full">
+    <header className="bg-[#1A0B2E] w-full flex items-center justify-center p-5 px-20">
+      <div className="flex items-center justify-between max-w-5xl w-full">
         <Link href="/">
           <Image src={logo} alt="" height={33} />
         </Link>
-        <div className="flex items-center justify-end gap-32">
+        <div className="flex items-center justify-end gap-32 max-md:gap-16">
           <Link href="/" className="text-white font-preahvihear text-[1.05rem]">
             Home
           </Link>
